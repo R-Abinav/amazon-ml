@@ -1,0 +1,252 @@
+# Amazon ML Challenge - .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data files (keep structure but ignore large files)
+*.csv
+*.json
+*.parquet
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Model files
+*.model
+*.pkl
+*.joblib
+*.h5
+*.pb
+*.onnx
+
+# Logs
+*.log
+logs/
+log/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Output files
+output/
+outputs/
+results/
+submissions/
+test_out.csv
+submission.csv
+
+# Scraped data (as mentioned in documentation)
+scraped_test_data/
+scraped_data/
+
+# Large embeddings and processed data
+*_embeddings.npy
+*_stats.npy
+embeddings/
+processed_data/
+
+# Kaggle specific
+.kaggle/
+kaggle.json
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Weights & Biases
+wandb/
+
+# TensorBoard
+runs/
+tensorboard/
+
+# PyTorch
+*.pth
+*.pt
+
+# TensorFlow
+*.ckpt
+*.meta
+*.index
+*.data-*
+
+# AutoML outputs
+autogluon_models/
+autogluon_tabular/
+
+# Optuna
+optuna.db
+
+# Cache directories
+.cache/
+cache/
+
+# Node.js (if any frontend components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# R (if any R scripts)
+.Rhistory
+.RData
+.Ruserdata
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Images (keep structure but ignore large image files)
+# Uncomment if you want to ignore all images
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+# *.bmp
+# *.tiff
+# *.svg
+
+# Keep important documentation and config files
+!README.md
+!requirements.txt
+!*.md
+!*.txt
+!*.yml
+!*.yaml
+!*.json
+!*.py
+!*.ipynb
+!*.sol
+!*.ts
+!*.tsx
+!*.js
+!*.jsx
+!*.css
+!*.html
+!*.xml
+!*.sh
+!*.bat
+!*.cmd
+
+# Keep dataset structure but ignore actual data
+!dataset/
+!dataset/*.csv
+!dataset/*.json
+!dataset/*.txt
+
+# Keep model notebooks but ignore outputs
+!models/
+!models/*.ipynb
+!models/*.py
+
+# Keep source code
+!src/
+!src/*.py
+!src/*.ipynb
+!src/*.ts
+!src/*.tsx
+!src/*.js
+!src/*.jsx
+
+# Keep configuration files
+!*.config.*
+!*.conf
+!config/
+!configs/
+
+# Keep documentation
+!docs/
+!documentation/
+!*.rst
+!*.tex
+
+# Keep tests
+!test/
+!tests/
+!*_test.py
+!test_*.py
