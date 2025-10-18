@@ -1,7 +1,9 @@
 # ML Challenge 2025: Smart Product Pricing Solution Template
 
 **Team Name:** TEAM Baked
+
 **Team Members:** R. Abinav, Kishore K, Sree Balaji, Monissh Balaji
+
 **Submission Date:** 13/10/2025
 
 ---
