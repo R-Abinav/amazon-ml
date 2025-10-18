@@ -82,7 +82,7 @@ All our experimental models and approaches are stored in the `models/` directory
 ## 🏅 Competition Context
 
 - **Total Participants:** 84,000+ students
-- **Our Rank:** Top 700 (top 0.8%)
+- **Our Rank:** Top 750 (top 0.8%)
 - **Approach:** Text-only with advanced feature engineering and ensemble learning
 
 ## 📝 Documentation
