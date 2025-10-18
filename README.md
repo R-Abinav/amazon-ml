@@ -2,12 +2,12 @@
 
 ## 🏆 Competition Results
 **SMAPE Score:** 48.834%  
-**Rank:** Top 700 out of 84,000+ registered students  
+**Rank:** Top 750 out of 84,000+ registered students  
 **Event:** 3-day Amazon ML Hackathon  
 
 ## 📋 Project Overview
 
-This project was developed during the 3-day Amazon ML hackathon focused on predicting product prices using multimodal data (text and images). Our solution achieved a SMAPE score of 48.834%, placing us in the top 700 teams out of over 84,000 registered students.
+This project was developed during the 3-day Amazon ML hackathon focused on predicting product prices using multimodal data (text and images). Our solution achieved a SMAPE score of 48.834%, placing us in the top 750 teams out of over 84,000 registered students.
 
 ## 🎯 Strategy & Approach
 
